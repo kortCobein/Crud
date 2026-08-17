@@ -1,0 +1,15 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Maven / compilados
+target/
+out/
+*.class
+
+# Credenciales reales
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+INSTRUCCIONES RAPIDAS
+=====================
+
+1) Conserva la carpeta CRUD completa.
+2) Confirma que exista C:\Users\cobei\Desktop\caais web\.env.
+3) Ejecuta run.bat.
+
+Si usas IntelliJ:
+4) File > Open y selecciona la carpeta CRUD.
+5) Carga el proyecto Maven cuando detecte pom.xml.
+6) Selecciona JDK 21 o superior.
+7) Abre src/main/java/mx/edu/utsjr/caai/app/Main.java.
+8) Ejecuta el triangulo verde junto a main().
+
+El CRUD usa la misma base de datos y las mismas tablas caais_* de CAAIS Web.
+Eliminar realiza una baja segura: la persona deja de aparecer en la web, pero su historial no se destruye.

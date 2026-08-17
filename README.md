@@ -1,10 +1,15 @@
-# CRUD CAAI - Java + MySQL
+# CRUD CAAI - Java + base real de CAAIS Web
 
-Proyecto de consola con POO, JDBC y MySQL.
+Proyecto de consola con POO, JDBC y MySQL. Trabaja sobre la misma base configurada en `C:\Users\cobei\Desktop\caais web\.env` y sobre las tablas reales `caais_*`.
 
-## Abrir en IntelliJ``
+- Crear agrega la cuenta a `caais_usuarios`, su perfil en `caais_alumnos` y su inscripción activa.
+- Modificar actualiza esos mismos registros.
+- Eliminar realiza una baja lógica: desactiva cuenta e inscripciones y cierra sesiones. El historial no se destruye.
+- Buscar, listar y directorio solo muestran cuentas activas del entorno real.
 
-Abre la carpeta que contiene `pom.xml`, carga Maven y usa JDK 21.
+## Abrir en IntelliJ
+
+Abre la carpeta que contiene `pom.xml`, carga Maven y usa JDK 21 o superior. Para ejecutarlo normalmente usa `run.bat`, que selecciona el JDK disponible y la configuración de CAAIS Web.
 
 Clase principal:
 

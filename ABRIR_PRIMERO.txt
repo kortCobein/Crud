@@ -1,0 +1,17 @@
+CRUD CAAI
+=========
+
+Abre la carpeta completa en IntelliJ, no un archivo .java aislado.
+
+Main:
+src > main > java > mx.edu.utsjr.caai > app > Main.java
+
+Packages:
+app / modelo / dao / config / util
+
+Usa JDK 21 o superior y deja que IntelliJ cargue Maven desde pom.xml.
+
+La conexion se toma automaticamente de:
+C:\Users\cobei\Desktop\caais web\.env
+
+Para la prueba normal, ejecuta run.bat.
